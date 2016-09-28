@@ -11,6 +11,7 @@
 		223CCA771D95F4FC00511627 /* SignInViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCA761D95F4FC00511627 /* SignInViewModel.m */; };
 		223CCA7D1D95FF6800511627 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCA7C1D95FF6800511627 /* HomeViewController.m */; };
 		223CCA801D96000D00511627 /* LocationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CCA7F1D96000D00511627 /* LocationInfo.m */; };
+		223F42E81D9BAB530081F12D /* adds.png in Resources */ = {isa = PBXBuildFile; fileRef = 223F42E71D9BAB530081F12D /* adds.png */; };
 		2281ECBD1D951CF7005FF871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281ECBC1D951CF7005FF871 /* main.m */; };
 		2281ECC01D951CF7005FF871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281ECBF1D951CF7005FF871 /* AppDelegate.m */; };
 		2281ECC31D951CF7005FF871 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2281ECC21D951CF7005FF871 /* SignInViewController.m */; };
@@ -51,7 +52,6 @@
 		228250BC1D97968100FC02A0 /* HelpLineViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 228250BB1D97968100FC02A0 /* HelpLineViewModel.m */; };
 		22F231A21D97C06000511461 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F231A11D97C06000511461 /* like.png */; };
 		22F231A51D97D1C200511461 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F231A41D97D1C200511461 /* NSString+Utils.m */; };
-		22F231A91D97DEC800511461 /* getimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F231A71D97DEC800511461 /* getimage.png */; };
 		22F231AA1D97DEC800511461 /* voice-mobile-adv-hed-2015.png in Resources */ = {isa = PBXBuildFile; fileRef = 22F231A81D97DEC800511461 /* voice-mobile-adv-hed-2015.png */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +81,7 @@
 		223CCA7C1D95FF6800511627 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		223CCA7E1D96000D00511627 /* LocationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationInfo.h; sourceTree = "<group>"; };
 		223CCA7F1D96000D00511627 /* LocationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationInfo.m; sourceTree = "<group>"; };
+		223F42E71D9BAB530081F12D /* adds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adds.png; sourceTree = "<group>"; };
 		2281ECB81D951CF7005FF871 /* vCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2281ECBC1D951CF7005FF871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2281ECBE1D951CF7005FF871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -128,9 +129,9 @@
 		228250931D96B9D000FC02A0 /* NSArray+ArrayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ArrayUtils.m"; sourceTree = "<group>"; };
 		228250971D9755C500FC02A0 /* AddProblemPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddProblemPictureViewController.h; sourceTree = "<group>"; };
 		228250981D9755C500FC02A0 /* AddProblemPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddProblemPictureViewController.m; sourceTree = "<group>"; };
-		2282509A1D977BE000FC02A0 /* fblogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogo.png; sourceTree = "<group>"; };
-		2282509B1D977BE000FC02A0 /* twitter logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter logo.png"; sourceTree = "<group>"; };
-		2282509C1D977BE000FC02A0 /* gmaillogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gmaillogo.png; sourceTree = "<group>"; };
+		2282509A1D977BE000FC02A0 /* fblogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fblogo.png; path = iCare/fblogo.png; sourceTree = "<group>"; };
+		2282509B1D977BE000FC02A0 /* twitter logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "twitter logo.png"; path = "iCare/twitter logo.png"; sourceTree = "<group>"; };
+		2282509C1D977BE000FC02A0 /* gmaillogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gmaillogo.png; path = iCare/gmaillogo.png; sourceTree = "<group>"; };
 		228250A01D977FD000FC02A0 /* PurchasesAndSubscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasesAndSubscriptionViewController.h; sourceTree = "<group>"; };
 		228250A11D977FD000FC02A0 /* PurchasesAndSubscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasesAndSubscriptionViewController.m; sourceTree = "<group>"; };
 		228250A31D97805900FC02A0 /* PurchasesSubscriptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchasesSubscriptionsTableViewController.h; sourceTree = "<group>"; };
@@ -139,12 +140,12 @@
 		228250A71D97808F00FC02A0 /* PurchasesSubscriptionsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchasesSubscriptionsViewModel.m; sourceTree = "<group>"; };
 		228250A91D978F9300FC02A0 /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
 		228250AA1D978F9300FC02A0 /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
-		228250AC1D97905800FC02A0 /* traction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = traction.png; sourceTree = "<group>"; };
-		228250AD1D97905800FC02A0 /* IsuueCopmare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IsuueCopmare.png; sourceTree = "<group>"; };
-		228250AE1D97905800FC02A0 /* InteractionPie.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InteractionPie.PNG; sourceTree = "<group>"; };
+		228250AC1D97905800FC02A0 /* traction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = traction.png; path = iCare/traction.png; sourceTree = "<group>"; };
+		228250AD1D97905800FC02A0 /* IsuueCopmare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IsuueCopmare.png; path = iCare/IsuueCopmare.png; sourceTree = "<group>"; };
+		228250AE1D97905800FC02A0 /* InteractionPie.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InteractionPie.PNG; path = iCare/InteractionPie.PNG; sourceTree = "<group>"; };
 		228250B21D97923900FC02A0 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		228250B31D97923900FC02A0 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
-		228250B51D97947400FC02A0 /* 1474798371_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1474798371_phone.png; sourceTree = "<group>"; };
+		228250B51D97947400FC02A0 /* 1474798371_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1474798371_phone.png; path = iCare/1474798371_phone.png; sourceTree = "<group>"; };
 		228250B71D9794DB00FC02A0 /* HelpLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpLineTableViewController.h; sourceTree = "<group>"; };
 		228250B81D9794DB00FC02A0 /* HelpLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpLineTableViewController.m; sourceTree = "<group>"; };
 		228250BA1D97968100FC02A0 /* HelpLineViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpLineViewModel.h; sourceTree = "<group>"; };
@@ -153,7 +154,6 @@
 		22F231A31D97D1C200511461 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
 		22F231A41D97D1C200511461 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 		22F231A61D97D88500511461 /* ProblemVotingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemVotingDelegate.h; sourceTree = "<group>"; };
-		22F231A71D97DEC800511461 /* getimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = getimage.png; sourceTree = "<group>"; };
 		22F231A81D97DEC800511461 /* voice-mobile-adv-hed-2015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice-mobile-adv-hed-2015.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,14 +209,29 @@
 			name = "Sign In";
 			sourceTree = "<group>";
 		};
-		2281ECAF1D951CF7005FF871 = {
+		223F42E41D9BA9C90081F12D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2281ECF41D953A5E005FF871 /* google-sign-in.png */,
-				22F231A71D97DEC800511461 /* getimage.png */,
+				223F42E71D9BAB530081F12D /* adds.png */,
+				228250AC1D97905800FC02A0 /* traction.png */,
+				228250AD1D97905800FC02A0 /* IsuueCopmare.png */,
+				228250AE1D97905800FC02A0 /* InteractionPie.PNG */,
+				228250B51D97947400FC02A0 /* 1474798371_phone.png */,
+				2282509A1D977BE000FC02A0 /* fblogo.png */,
+				2282509B1D977BE000FC02A0 /* twitter logo.png */,
+				2282509C1D977BE000FC02A0 /* gmaillogo.png */,
 				22F231A81D97DEC800511461 /* voice-mobile-adv-hed-2015.png */,
 				2281ECF61D953B11005FF871 /* Solid_white.png */,
 				22F231A11D97C06000511461 /* like.png */,
+				2281ECF41D953A5E005FF871 /* google-sign-in.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2281ECAF1D951CF7005FF871 = {
+			isa = PBXGroup;
+			children = (
+				223F42E41D9BA9C90081F12D /* Resources */,
 				2281ECBA1D951CF7005FF871 /* iCare */,
 				2281ECD41D951CF7005FF871 /* iCareTests */,
 				2281ECDF1D951CF7005FF871 /* iCareUITests */,
@@ -249,15 +264,8 @@
 				228250731D96517400FC02A0 /* Location.gpx */,
 				2281ECC41D951CF7005FF871 /* Main.storyboard */,
 				2281ECC71D951CF7005FF871 /* Assets.xcassets */,
-				228250AC1D97905800FC02A0 /* traction.png */,
-				228250AD1D97905800FC02A0 /* IsuueCopmare.png */,
-				228250AE1D97905800FC02A0 /* InteractionPie.PNG */,
 				2281ECC91D951CF7005FF871 /* LaunchScreen.storyboard */,
 				2281ECCC1D951CF7005FF871 /* Info.plist */,
-				228250B51D97947400FC02A0 /* 1474798371_phone.png */,
-				2282509A1D977BE000FC02A0 /* fblogo.png */,
-				2282509B1D977BE000FC02A0 /* twitter logo.png */,
-				2282509C1D977BE000FC02A0 /* gmaillogo.png */,
 				2281ECBB1D951CF7005FF871 /* Supporting Files */,
 			);
 			path = iCare;
@@ -639,9 +647,9 @@
 				2281ECF51D953A5E005FF871 /* google-sign-in.png in Resources */,
 				2282509F1D977BE000FC02A0 /* gmaillogo.png in Resources */,
 				2281ECCB1D951CF7005FF871 /* LaunchScreen.storyboard in Resources */,
-				22F231A91D97DEC800511461 /* getimage.png in Resources */,
 				2281ECC81D951CF7005FF871 /* Assets.xcassets in Resources */,
 				228250AF1D97905800FC02A0 /* traction.png in Resources */,
+				223F42E81D9BAB530081F12D /* adds.png in Resources */,
 				22F231A21D97C06000511461 /* like.png in Resources */,
 				2282509E1D977BE000FC02A0 /* twitter logo.png in Resources */,
 				2281ECC61D951CF7005FF871 /* Main.storyboard in Resources */,
